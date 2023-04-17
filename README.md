@@ -1,6 +1,6 @@
 ![lists](https://github.com/ramondata/Tipos_de_dados/blob/master/david-clode-vb-3qEe3rg8-unsplash.jpg)
 
-Some ways to Create a list and how we may use/manipulate these lists 🐍
+*Some ways to Create a list and how we may use/manipulate these lists* 🐍
 ===========
 
 list is a most common used structure in Python. We can understanding about it because is so easy make or treat data with these structure.
@@ -21,10 +21,10 @@ some_names_1: list = ["ramon", "carol", "chico"]
 ```
 
 
-
+<sub>
 nomes_2: list = "ramon|carol|chico".split("|") #tipo 2
 sobrenomes = ("barbosa", "freitas")
 sobre_nomes_3: list = list(sobrenomes) #tipo 3
 nomes_4: list = [item for item in sobrenomes if item == "barbosa"] #list comprehensions #tipo 4
 nomes_5: list = list(map(lambda x: x, ("chico dogao", "chico bonitao", "chico sapecao"))) #tipo 5
-
+</sub>
