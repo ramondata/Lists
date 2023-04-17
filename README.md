@@ -12,5 +12,19 @@ Inside Python, there's some libraries with the same idea, like list. For example
 
 So, most developers and IT professionals often prefer use the structure list, cause it`s built in and very powerfull to manipulation of any types of data.
 
-Let`s see below, how we can build a list in Python:
+Let's see below, how we can build a list in Python:
+
+- [x] Using square brackets: mode 1
+
+```
+some_names_1: list = ["ramon", "carol", "chico"] 
+```
+
+
+
+nomes_2: list = "ramon|carol|chico".split("|") #tipo 2
+sobrenomes = ("barbosa", "freitas")
+sobre_nomes_3: list = list(sobrenomes) #tipo 3
+nomes_4: list = [item for item in sobrenomes if item == "barbosa"] #list comprehensions #tipo 4
+nomes_5: list = list(map(lambda x: x, ("chico dogao", "chico bonitao", "chico sapecao"))) #tipo 5
 
