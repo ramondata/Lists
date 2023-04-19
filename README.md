@@ -1,6 +1,6 @@
 ![lists](https://github.com/ramondata/Tipos_de_dados/blob/master/david-clode-vb-3qEe3rg8-unsplash.jpg)
 
-*Some ways to Create a list and how we may use/manipulate these lists* 🐍
+*Some ways to create a list and how we may use/manipulate these one* 🐍
 ===========
 
 list is a most common used structure in Python. We can understanding about it because is so easy make or treat data with these structure.
@@ -14,17 +14,38 @@ So, most developers and IT professionals often prefer use the structure list, ca
 
 Let's see below, how we can build a list in Python:
 
-- [x] Using square brackets: mode 1
+- [x] Using square brackets: *`mode 1`*
 
 ```
 some_names_1: list = ["ramon", "carol", "chico"] 
 ```
 
+- [x] Using a separeted with split function: *`mode 2`*
 
-<sub>
-nomes_2: list = "ramon|carol|chico".split("|") #tipo 2
-sobrenomes = ("barbosa", "freitas")
-sobre_nomes_3: list = list(sobrenomes) #tipo 3
-nomes_4: list = [item for item in sobrenomes if item == "barbosa"] #list comprehensions #tipo 4
-nomes_5: list = list(map(lambda x: x, ("chico dogao", "chico bonitao", "chico sapecao"))) #tipo 5
-</sub>
+```
+nomes_2: list = "ramon|carol|chico".split("|")
+```
+
+- [x] Casting another type to list type: *`mode 3`*
+
+```
+sobrenomes: tuple = ("barbosa", "freitas")
+
+sobre_nomes_3: list = list(sobrenomes)
+```
+- [x] List comprehensions: *`mode 4`*
+
+```
+sobrenomes: tuple = ("barbosa", "freitas")
+
+nomes_4: list = [item for item in sobrenomes if item == "barbosa"]
+```
+
+- [x] lazy function map to list: *`mode 5`*
+
+```
+nicks: tuple = ("chico dogao", "chico bonitao", "chico sapecao")
+
+nomes_5: list = list(map(lambda x: x, nicks))
+```
+
