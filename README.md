@@ -87,7 +87,7 @@ total_of_chair_all_rooms.extend(total_of_chair_room_2)
 ```
 > total_of_chair_all_rooms: [9,12,33,4,12,25]
 
-`* to be continued *`
+*`to be continued`*
 
 
 
