@@ -49,3 +49,60 @@ nicks: tuple = ("chico dogao", "chico bonitao", "chico sapecao")
 nomes_5: list = list(map(lambda x: x, nicks))
 ```
 
+Manipulation Lists
+============================
+
+After make ou initialized a list in Python, we can change this. Let's see a most methods and functions for lists, below:
+
+- [x] Append:
+
+Append is an important method to add new data in list
+```
+array_with_name_of_friends: list = ['Eduardo']
+
+array_with_name_of_friends.append('Jo')
+```
+
+- [x] Insert:
+
+The structure of lists, each position there's a index number beginner with 0
+
+To use the method insert, we need fill the index and after, the data. See below:
+```
+array_with_name_of_friends = ['Eduardo', 'Jo']
+array_with_name_of_friends.insert(0, 'Carol')
+```
+
+- [x] Extend:
+
+This method is important to aggregation a list inside another list
+It's looks like a union for lists
+```
+total_of_chair_room_1 = [9,12,33]
+number_of_chair_room_2 = [4, 12, 25]
+total_of_chair_all_rooms = list()
+
+total_of_chair_all_rooms.extend(total_of_chair_room_1)
+total_of_chair_all_rooms.extend(total_of_chair_room_2)
+```
+> total_of_chair_all_rooms: [9,12,33,4,12,25]
+
+`* to be continued *`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
