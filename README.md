@@ -1,3 +1,12 @@
+```
+    __    _      __      
+   / /   (_)____/ /______
+  / /   / / ___/ __/ ___/
+ / /___/ (__  ) /_(__  ) 
+/_____/_/____/\__/____/  
+                         
+```
+
 ![lists](https://github.com/ramondata/Tipos_de_dados/blob/master/david-clode-vb-3qEe3rg8-unsplash.jpg)
 
 *Some ways to create a list and how we may use/manipulate these one* 🐍
@@ -52,7 +61,7 @@ nomes_5: list = list(map(lambda x: x, nicks))
 Manipulation Lists
 ============================
 
-After make ou initialized a list in Python, we can change this. Let's see a most methods and functions for lists, below:
+After make ou initialized a list in Python, we can change this. Let's see a most methods and functions for lists, below
 
 - [x] Append:
 
