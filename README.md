@@ -94,17 +94,45 @@ total_of_chair_all_rooms.extend(total_of_chair_room_2)
 ```
 > total_of_chair_all_rooms: [9,12,33,4,12,25]
 
+- [x] Pop:
+
+This method is usually used to drop a data from the list. 
+You can drop allways the last item from the list or drop a specific data filling index about that.
+
+```
+animals_names = ['duck', 'tiger', 'aligator', 'snake']
+animals_names.pop()
+```
+> animals_names: ['duck', 'tiger', 'aligator']
+
+```
+animals_names = ['duck', 'tiger', 'aligator', 'snake']
+animals_names.pop(1)
+```
+
+> animals_names: ['duck', 'aligator', 'snake']
+
+Remember: index of lists start with 0 (zero).
+
+
+- [x] Remove:
+
+Method did use to remove a data specific, but we fill the data and not index about data.
+```
+pencil_color = ['yellow', 'blue', 'green']
+pencil_color.remove('blue')
+```
+> pencil_color: ['yellow', 'green']
+
+the remove method will drop the first ocurrency of data, if you wanna drop all items, is necessary make a logic about that, using set or apply the remove more times.
+
+Remember: if data were int, fill data without `''`.
+
+
+
+
+
 *`to be continued`*
-
-
-
-
-
-
-
-
-
-
 
 
 
