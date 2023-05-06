@@ -7,8 +7,6 @@
                          
 ```
 
-![lists](https://github.com/ramondata/Tipos_de_dados/blob/master/david-clode-vb-3qEe3rg8-unsplash.jpg)
-
 *Some ways to create a list and how we may use/manipulate these one* 🐍
 ===========
 
